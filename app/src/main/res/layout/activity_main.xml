@@ -48,10 +48,10 @@
                         android:id="@+id/textTop"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="=| tudiby |="
+                        android:text="JUICE MP3 DOWNLOADER"
                         android:textAlignment="center"
                         android:textStyle="bold"
-                        android:textColor="#03A9F4"
+                        android:textColor="#FFFFFF"
                         android:layout_marginBottom="20dp"
                         android:textSize="30sp"
                         android:gravity="center_horizontal" />
@@ -131,70 +131,70 @@
                             android:layout_marginLeft="20dp"
                             android:layout_marginRight="20dp">
 
-                        <Button
-                            android:id="@+id/btn_offline"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="10dp"
-                            android:layout_gravity="center"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:background="@drawable/round_bg"
-                            android:textStyle="bold"
-                            android:textSize="55sp"
-                            android:text="OFFLINE"
-                            android:textColor="#ffffff"
-                            android:visibility="visible" />
+                            <Button
+                                android:id="@+id/btn_offline"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/round_bg"
+                                android:text="OFFLINE"
+                                android:textColor="#ffffff"
+                                android:textSize="55sp"
+                                android:textStyle="bold"
+                                android:visibility="visible" />
 
                         </RelativeLayout>
 
                         <RelativeLayout
-                            android:background="#E70016"
+                            android:background="#0033FF"
                             android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="130dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginRight="20dp">
 
-                        <Button
-                            android:id="@+id/policy"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="10dp"
-                            android:layout_gravity="center"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:textColor="#ffffff"
-                            android:textSize="55sp"
-                            android:background="@drawable/round_bg2"
-                            android:textStyle="bold"
-                            android:text="Privacy" />
+                            <Button
+                                android:id="@+id/policy"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/round_bg2"
+                                android:text="Privacy"
+                                android:textColor="#ffffff"
+                                android:textSize="55sp"
+                                android:textStyle="bold" />
                         </RelativeLayout>
 
                         <RelativeLayout
-                            android:background="#FF9800"
+                            android:background="#0033FF"
                             android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="130dp"
                             android:layout_marginLeft="20dp"
                             android:layout_marginRight="20dp">
 
-                        <Button
-                            android:id="@+id/rate"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="10dp"
-                            android:layout_gravity="center"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginTop="10dp"
-                            android:textColor="#ffffff"
-                            android:textSize="55sp"
-                            android:background="@drawable/round_bg3"
-                            android:textStyle="bold"
-                            android:text="Rate" />
+                            <Button
+                                android:id="@+id/rate"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/round_bg3"
+                                android:text="Rate"
+                                android:textColor="#ffffff"
+                                android:textSize="55sp"
+                                android:textStyle="bold" />
                         </RelativeLayout>
 
 

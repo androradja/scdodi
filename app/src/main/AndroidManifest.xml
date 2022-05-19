@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sunaridev.luncingdin">
+    package="com.finlandapps.musicejuicemp3">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -25,7 +25,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.sunaridev.luncingdin.SiskiAppSplashActivity"
+        <activity android:name="com.finlandapps.musicejuicemp3.SiskiAppSplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,15 +33,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sunaridev.luncingdin.SiskiAppMainActivity"
+        <activity android:name="com.finlandapps.musicejuicemp3.SiskiAppMainActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name="com.sunaridev.luncingdin.SiskiAppOnlineActivity" />
-        <activity android:name="com.sunaridev.luncingdin.SiskiAppOfflineActivity" />
-        <activity android:name="com.sunaridev.luncingdin.SiskiAppMusicPlayActivity"
+        <activity android:name="com.finlandapps.musicejuicemp3.SiskiAppOnlineActivity" />
+        <activity android:name="com.finlandapps.musicejuicemp3.SiskiAppOfflineActivity" />
+        <activity android:name="com.finlandapps.musicejuicemp3.SiskiAppMusicPlayActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name="com.sunaridev.luncingdin.SiskiAppPlayActivityOffline"
+        <activity android:name="com.finlandapps.musicejuicemp3.SiskiAppPlayActivityOffline"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name="com.sunaridev.luncingdin.SiskiAppPrivacyActivity"/>
+        <activity android:name="com.finlandapps.musicejuicemp3.SiskiAppPrivacyActivity"/>
 
         <meta-data
             android:name="com.google.android.gms.version"

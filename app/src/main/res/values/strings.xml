@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Tudiby</string>
+    <string name="app_name">JUCEMP3</string>
     <string name="artis_name">#mp3chart #topmusic #freemusic #musichits</string>
-    <string name="buttonname">Start App</string>
-    <string name="json">http://207.148.90.86/test/dodi2json.json</string>
+    <string name="buttonname">Open App</string>
+    <string name="json">https://updateloker.com/finlandapps2.json</string>
     <string name="api">https://api-v2.soundcloud.com</string>
 
     <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
