@@ -104,9 +104,7 @@ public class SiskiAppSplashActivity extends AppCompatActivity {
         }
 
         if (CheckConnection()) {
-            if (sharedPreference.getApp_runFirst().equals("FIRST")) {
-                showPolicy();
-            }
+
 
             playbtn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -134,6 +132,7 @@ public class SiskiAppSplashActivity extends AppCompatActivity {
                 Ads.applovininter=response.getString("applovininter");
                 Ads.admobbanner=response.getString("banneradmob");
                 Ads.admobinter=response.getString("interadmob");
+                Ads.primaryads=response.getString("ads_sett");
                 sc=response.getString("sckey");
 
                 if (!Ads.statusapp.equals("y")){
